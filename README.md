@@ -31,7 +31,7 @@ La representación gráfica de este algoritmo usando un diagrama de flujo se mue
 
 ```mermaid
 flowchart TD;
-    A(Inicio) --> B[Ingresar el valor de  n];
+    A([Inicio]) --> B[Ingresar el valor de  n];
     B --> C;
     C[Declarar i=2];
     C--> D;
@@ -47,5 +47,5 @@ flowchart TD;
     L --> M[i = i+1];
     K -- No --> M;
     M --> D;
-    D -- No --> Z[Fin programa];
+    D -- No --> Z([Fin programa]);
 ```
